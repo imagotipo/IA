@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
     <title>Opciones</title>
+    <link rel="shorcut icon" href="https://media.contentapi.ea.com/content/dam/eacom/en-us/migrated-images/2017/03/pvz2-peashooter-hd.png.adapt.crop16x9.575p.png">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Arial, 'Times New Roman', Times, serif;
             background-color: #f0f0f0;
             text-align: center;
             padding: 0;
@@ -17,6 +20,10 @@
             background-color: #3498db;
             color: white;
             padding: 10px;
+            box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6); /* Agregar sombra a los botones */
+            background-image: url(https://i.pinimg.com/736x/cc/31/69/cc31695943fb9cd9b9bfc511dce23ff7--insano-background-banner.jpg);
+            color: #520a64;
+            -webkit-text-stroke: 2px black;
         }
 
         ul {
@@ -25,7 +32,7 @@
         }
 
         li {
-            margin: 10px;
+            margin: 2px;
         }
 
         .button-container {
@@ -38,17 +45,17 @@
             background-color: #3498db;
             color: white;
             border: none;
-            border-radius: 5px;
+            border-radius: 4px;
             padding: 10px;
             cursor: pointer;
             text-align: center;
-            width: calc(33.33% - 20px); /* Ajustar el ancho de cada botón */
-            margin: 10px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Agregar sombra a los botones */
+            width: calc(33.33% - 2px); /* Ajustar el ancho de cada botón */
+            margin: 150px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Agregar sombra a los botones */
         }
 
         .button:hover {
-            background-color: #2980b9;
+            background-color: #520a64;
         }
 
         .button img {
@@ -67,12 +74,13 @@
         .footer {
             background-color: #3498db;
             color: white;
-            padding: 10px;
+            padding: 20px;
+            align-content: center;
         }
     </style>
 </head>
 <body>
-    <h1>Selecciona una opción:</h1>
+    <h1 id="miEncabezado">Selecciona una opción:</h1>
     <ul class="button-container">
         <li>
             <a href="https://bard.google.com/chat?hl=es" id="option1" target="_blank">
@@ -95,12 +103,24 @@
                 <button class="button">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/800px-ChatGPT_logo.svg.png" alt="Chat GPT" />
                     Chat GPT of Aldo
+                    <br>
                 </button>
+                <div class="footer">
+                    haber si hacen esto
+                </div>
             </a>
         </li>
     </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+     <footer>
     <div class="footer">
         Wazaaaa VIva el Fri
-    </div>
+    </div></footer>
 </body>
 </html>
