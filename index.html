@@ -26,26 +26,53 @@
             margin: 10px;
         }
 
-        a {
-            display: block;
-            background-color: #3498db;
-            color: white;
-            padding: 10px;
-            text-decoration: none;
-            border-radius: 5px;
+        .button-container {
+            display: flex;
+            justify-content: center;
         }
 
-        a:hover {
+        .button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .button:hover {
             background-color: #2980b9;
         }
     </style>
 </head>
 <body>
     <h1>Selecciona una opción:</h1>
-    <ul>
-        <li><a href="https://bard.google.com/chat?hl=es" id="option1" target="_blank">Bard</a></li>
-        <li><a href="https://www.bing.com/?setlang=es" id="option2" target="_blank">Bing</a></li>
-        <li><a href="https://chat.openai.com/" id="option3" target="_blank">Chat GPT</a></li>
+    <ul class="button-container">
+        <li>
+            <a href="https://bard.google.com/chat?hl=es" id="option1" target="_blank">
+                <button class="button">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Google_Bard_logo.svg/2048px-Google_Bard_logo.svg.png" alt="Bard" />
+                    Bard of Edgar
+                </button>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.bing.com/?setlang=es" id="option2" target="_blank">
+                <button class="button">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Bing_Fluent_Logo.svg/1356px-Bing_Fluent_Logo.svg.png" alt="Bing" />
+                    Bing of Gustavo
+                </button>
+            </a>
+        </li>
+        <li>
+            <a href="https://chat.openai.com/" id="option3" target="_blank">
+                <button class="button">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/800px-ChatGPT_logo.svg.png" alt="Chat GPT" />
+                    Chat GPT of Aldo
+                </button>
+            </a>
+        </li>
     </ul>
 </body>
 </html>
